@@ -1,0 +1,46 @@
+{
+    "data": {
+        "_id": "58f61a132d44240d085ca2fa",
+        "comapny_name": "Burslem Spice",
+        "__v": 1,
+        "categories": [
+            {
+                "_id": "58f643382d44240d085ca2fb",
+                "category_name": "pizza",
+                "company_id": "58f61a132d44240d085ca2fa",
+                "__v": 3,
+                "subCategories": [
+                    {
+                        "_id": "58f643b7f459fc1b099266f0",
+                        "sub_category_name": "large",
+                        "category_id": "58f643382d44240d085ca2fb",
+                        "__v": 1,
+                        "items": [
+                            {
+                                "_id": "58f6460d2931784b099a2a4d",
+                                "price": 22.9,
+                                "currency": "INR",
+                                "subCategory_id": "58f643b7f459fc1b099266f0",
+                                "__v": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "58f6445c6868323309098f50",
+                        "sub_category_name": "medium",
+                        "category_id": "58f643382d44240d085ca2fb",
+                        "__v": 0,
+                        "items": []
+                    },
+                    {
+                        "_id": "58f644666868323309098f51",
+                        "sub_category_name": "small",
+                        "category_id": "58f643382d44240d085ca2fb",
+                        "__v": 0,
+                        "items": []
+                    }
+                ]
+            }
+        ]
+    }
+}

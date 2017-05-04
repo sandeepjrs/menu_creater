@@ -1,0 +1,15 @@
+<div class="container">
+  
+      <div *ngFor = "let company of companies" >
+          <div class="card card-1 " id="wrapper" (click)="getMenu(company._id)"   > 
+              <label class="center"> 
+                  {{company["comapny_name"]}} 
+             </label> 
+        </div>
+          
+      </div>
+
+   
+  
+  
+</div>
